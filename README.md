@@ -1,4 +1,4 @@
-# Phase transisions and topology in rolling
+# Phase transitions and topology in rolling
 
 This code repository contains details of constructing irregular 2D and 3D bodies using Fourier modes, and simulation scripts for their rolling motion under gravity on an inclined ramp. Non-slip constraints are assumed, and rotational viscosity and moment of inertia are isotropic for simplicity. Main results include:
 
