@@ -14,5 +14,13 @@ This code repository contains details of constructing irregular 2D and 3D bodies
 	
 Please cite the following article if you find the code helpful for your work: 
 
+## Dependencies
+Libraries used:
+- numpy
+- scipy
+- sympy
+- matplotlib
+- pandas
+
 ## License
 This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
