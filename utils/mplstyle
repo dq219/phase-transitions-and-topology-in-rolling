@@ -1,5 +1,5 @@
 text.usetex : True
-text.latex.preamble : \usepackage{amsmath}\usepackage{amssymb}\usepackage{upgreek}\usepackage{physics}
+text.latex.preamble : \usepackage{amsmath}\usepackage{amssymb}\usepackage{upgreek}\usepackage{bm}\usepackage{physics}
 font.family : serif
 font.serif : CMR10
 font.size : 8
