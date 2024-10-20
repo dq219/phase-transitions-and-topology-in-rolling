@@ -1,0 +1,5 @@
+In 3D rolling experiments, we first acquired raw data using an iPhone SE. A perspective transformation is performed by hand and the start of the analysis sequence is idenified as a starting frame number. These info are stored in a meta.csv dataframe for all the videos, grouped according to the date of the experiments (2024_0126 and 2024_0205 are included here, but we have more).
+
+The analysis proceeds by identifying the ball in each frame, and then looking for the markers on the ball in a small window. The ball and marker positions are stored in separate .csv files, and both raw and transformed positions are included. The analysis script is not included here due to storage space constraints but we are happy to provide further information - get in contact with dq219@cam.ac.uk or 000.gdz@gmail.com.
+
+The provided .ipynb scripts simply plot the .csv data. The identification of periodicity is manual, it is just quite obvious.
