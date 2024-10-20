@@ -2,9 +2,12 @@
 
 This code repository contains details of constructing irregular 2D and 3D bodies using Fourier modes, and simulation scripts for their rolling motion under an external force on an inclined ramp. Non-slip constraints are assumed, and rotational viscosity and moment of inertia are isotropic for simplicity. The Jupyter notebooks contain sample code showing how the libraries work.
 
+<div align="center">
+  <video src="./3DPlots/Poincare.mp4" width="1500" />
+</div>
+
 - 2D rolling scripts
 	- [2D_viscous.ipynb](./2D_viscous.ipynb): 2D rolling without inertia. Second-order halting-cruising phase transition is observed.
-	![second-order transision](./2DPlots/viscous_transition.pdf)
 	- [2D_inertia.ipynb](./2D_inertia.ipynb): first-order halting-cruising transition in 2D rolling with inertia, and an associated first-order cruising-halting transition as a hysteresis effect.
 	
 - 3D rolling scripts
