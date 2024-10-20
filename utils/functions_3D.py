@@ -368,9 +368,9 @@ class ball:
 			ax2.set_title('lab frame')
 			ax2.set_box_aspect((1,1,1))
 
-	# function that implements the viscous EOM
+	# function that implements the overdamped EOM
 	# f is force parallel to ramp, g is perpendicular to ramp
-	def propagate_viscous(self, time, state, f, g):
+	def propagate_overdamped(self, time, state, f, g):
 	
 		[_t, _p, _q0, _q1, _q2, _q3, _x, _y, _z] = state
 		
@@ -431,7 +431,7 @@ class ball:
 		                 _Q0Dt, _Q1Dt, _Q2Dt, _Q3Dt,
 		                 _v[0], _v[1], _v[2]])
 
-	def propagate_inertia(self, time, state, f, g, m):
+	def propagate_inertial(self, time, state, f, g, m):
 
 		[_t, _p, _q0, _q1, _q2, _q3, _x, _y, _z, _omgx, _omgy, _omgz] = state
 		
@@ -501,11 +501,11 @@ class ball:
 	# simulation
 	def simulate(self, f = 0, g = 0, ti = 0, tf = 3, outputN = 1000, m = 0):
 		if m == 0:
-			res = sp.integrate.solve_ivp(self.propagate_viscous, (ti, tf), self.s0, t_eval = np.linspace(ti, tf, outputN), args = (f, g), method = 'DOP853')
+			res = sp.integrate.solve_ivp(self.propagate_overdamped, (ti, tf), self.s0, t_eval = np.linspace(ti, tf, outputN), args = (f, g), method = 'DOP853')
 			self.s = res.y.T
 			self.t = res.t
 		else:
-			res = sp.integrate.solve_ivp(self.propagate_inertia, (ti, tf), self.s0, t_eval = np.linspace(ti, tf, outputN), args = (f, g, m), method = 'DOP853')
+			res = sp.integrate.solve_ivp(self.propagate_inertial, (ti, tf), self.s0, t_eval = np.linspace(ti, tf, outputN), args = (f, g, m), method = 'DOP853')
 			self.s = res.y.T
 			self.t = res.t
 			
