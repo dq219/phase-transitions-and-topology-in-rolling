@@ -22,12 +22,12 @@ Thanks for your interest! :)
 
 ## Dependencies
 Libraries used:
-- 'numpy'
-- 'scipy'
-- 'sympy'
-- 'matplotlib'
-- 'pandas'
-- 'numpy-quaternion' (if installing using 'conda' instead of 'pip', the package is named just 'quaternion' - I think)
+- `numpy`
+- `scipy`
+- `sympy`
+- `matplotlib`
+- `pandas`
+- `numpy-quaternion` (if installing using `conda` instead of `pip`, the package is named just `quaternion` - I think)
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
