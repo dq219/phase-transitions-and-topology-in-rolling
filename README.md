@@ -20,7 +20,7 @@ This code repository contains details of constructing irregular 2D and 3D bodies
 
 In addition, curated experimental data and the analysis/plotting scripts are provided in the [Experiments folder](./Experiments).
 
-Please cite the [publication](https://www.pnas.org/doi/10.1073/pnas.2417161122) if you find the code helpful for your work. Get in touch with dq219@cam.ac.uk or 000.gdz@gmail.com for any questions.
+Please cite the [publication](https://www.pnas.org/doi/10.1073/pnas.2417161122) if you find the code helpful for your work. Get in touch with dq219@mit.edu or dq219@cam.ac.uk or 000.gdz@gmail.com for any questions.
 
 Thanks for your interest! :)
 
@@ -31,7 +31,7 @@ Libraries used:
 - `sympy`
 - `matplotlib`
 - `pandas`
-- `numpy-quaternion` (if installing using `conda` instead of `pip`, the package is named just `quaternion` - I think)
+- `numpy-quaternion` (if installing using `conda` instead of `pip`, the package is named just `quaternion`)
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
