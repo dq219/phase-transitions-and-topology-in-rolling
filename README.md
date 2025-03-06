@@ -1,6 +1,7 @@
 # Phase transitions and topology in rolling
 
-PNAS article link: https://www.pnas.org/doi/10.1073/pnas.2417161122
+PNAS link: https://www.pnas.org/doi/10.1073/pnas.2417161122
+ArXiv link: https://arxiv.org/abs/2407.19861
 
 This code repository contains details of constructing irregular 2D and 3D bodies using Fourier modes, and simulation scripts for their rolling motion under an external force on an inclined ramp. Non-slip constraints are assumed, and rotational viscosity and moment of inertia are isotropic for simplicity. The Jupyter notebooks contain sample code showing how the libraries work.
 
@@ -18,7 +19,7 @@ This code repository contains details of constructing irregular 2D and 3D bodies
 
 In addition, curated experimental data and the analysis/plotting scripts are provided in the [Experiments folder](./Experiments).
 
-Please cite the [publication](https://arxiv.org/abs/2407.19861) if you find the code helpful for your work. Get in touch with dq219@cam.ac.uk or 000.gdz@gmail.com for any questions.
+Please cite the [publication]([https://arxiv.org/abs/2407.19861](https://www.pnas.org/doi/10.1073/pnas.2417161122) if you find the code helpful for your work. Get in touch with dq219@cam.ac.uk or 000.gdz@gmail.com for any questions.
 
 Thanks for your interest! :)
 
