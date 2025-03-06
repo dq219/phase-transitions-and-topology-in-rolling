@@ -19,7 +19,7 @@ This code repository contains details of constructing irregular 2D and 3D bodies
 
 In addition, curated experimental data and the analysis/plotting scripts are provided in the [Experiments folder](./Experiments).
 
-Please cite the [publication]([https://arxiv.org/abs/2407.19861](https://www.pnas.org/doi/10.1073/pnas.2417161122) if you find the code helpful for your work. Get in touch with dq219@cam.ac.uk or 000.gdz@gmail.com for any questions.
+Please cite the [publication](https://arxiv.org/abs/2407.19861](https://www.pnas.org/doi/10.1073/pnas.2417161122) if you find the code helpful for your work. Get in touch with dq219@cam.ac.uk or 000.gdz@gmail.com for any questions.
 
 Thanks for your interest! :)
 
